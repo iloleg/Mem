@@ -1,0 +1,48 @@
+<div class="container">
+  <header class="header">
+    <h1> Game</h1>
+    <h2>NOVY</h2>
+    <link rel="stylesheet" href="styles.css">
+  </header>
+
+  <section class="score-panel">
+    <h3>Score Panel</h3>
+    <ul id="star-rating" class="star-rating">
+      <li class="star"><i class="fa fa-star"></i></li>
+      <li class="star"><i class="fa fa-star"></i></li>
+      <li class="star"><i class="fa fa-star"></i></li>
+    </ul>
+    <span class="moves-counter">0</span> Moves
+    <div class="timer-container">
+      <span class="timer"><i class="fa fa-hourglass-start"></i> Timer: 00:00</span>
+    </div>
+    <div class="reset">
+      <button class="btn reset-btn">Reset <i class="fa fa-repeat"></i></button>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <section class="win-game-modal">
+    <div id="modal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Congratulations!</h2>
+        <p>You have won the game and found all 8 pairs of cards.</p>
+        <img class="modal-img" src="https://github.com/FoxyStoat/memory-game/blob/master/assets/img/Vault-Boy-Thumb-Up.jpg?raw=true" alt="Vault boy giving the thumbs up from the game fall out">
+        <button class="btn play-again-btn">Play Again?</button>
+      </div>
+    </div>
+  </section>
+
+  <ul class="deck"></ul>
+</div>
+
+<footer class="footer">
+  <h3>Licensing IL.Oleg</h3>
+
+</footer>
+
+<script src="custom.js"></script>
+</body>
+</html>
